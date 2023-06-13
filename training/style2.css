@@ -1,0 +1,47 @@
+/* define the root log*/
+: :root{
+    --primarycolor:#1A374D;
+    --backgroundcolor:#B1D0E0;
+    --primaryaccentcolor:#6998AB;
+    --secondarycolor:#406882;
+    --whitecolor:white;
+    --blackcolor:black;
+    --primaryfont:'open sans',sans serif;
+    --navbarheight
+}
+/*Main CSS*/
+body{
+    background-color: var(--backgroundcolor);
+    color var(--primarycolor);
+    font-family: var(--primaryfont);
+}
+.navigation {
+    background-color: var(--whitecolor);
+    height:var(--navbarheight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height:20rem;
+    padding: 8px 20px;
+    width: 8rem;
+    margin: -right: 4rem;
+}
+.logoimage{
+    padding: 8px;
+    height: var(--navbarheight);
+    height: 2rem;
+    float:left;
+}
+.contactimage{
+    height: 2rem;
+    padding: 8px;
+
+}
+.menuitems{
+    flex: grow 2;
+}
+.menuitems{
+    margin-left: 20px;
+}
